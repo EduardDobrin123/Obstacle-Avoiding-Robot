@@ -32,9 +32,10 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
   - Jumper wires
 
 ## Software Design
-
+## TBD
 ## Conclusion
-
+## TBD
 ## Results
-
+## TBD
 ## References/Resources
+## TBD
