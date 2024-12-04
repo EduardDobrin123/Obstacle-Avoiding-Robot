@@ -23,13 +23,13 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 
 ## Hardware Design
 <div style="background-color: #e8f5e9; padding: 10px; border: 1px solid #c8e6c9; border-radius: 5px;"> <b>Components:</b> 
-* Arduino UNO board 
-* L298N motor driver 
-* HC-SR04 ultrasonic sensor 
-* SG90 servo motor 
-* Two DC motors with wheels 
-* Battery pack (4x AA with on/off switch) 
-* Jumper wires
+- Arduino UNO board 
+- L298N motor driver 
+- HC-SR04 ultrasonic sensor 
+- SG90 servo motor 
+- Two DC motors with wheels 
+- Battery pack (4x AA with on/off switch) 
+- Jumper wires
 </div>
 
 ## Software Design
