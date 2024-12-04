@@ -1,16 +1,16 @@
 # Obstacle-Avoiding-Robot
 
 ## Introduction
-- What does it do?
+- **What does it do?**
   - The robot detects obstacles in its path and dynamically adjusts its direction to avoid collisions.
 
-- What is its purpose?
+- **What is its purpose?**
   - The purpose of this project is to showcase how embedded systems can be used to build simple, autonomous robots while providing a hands-on learning experience in robotics, electronics, and programming.
 
-- What inspired the idea?
+- **What inspired the idea?**
   - The idea originated from the desire to create a cost-effective and efficient robot capable of navigating independently.
 
-- Why is it useful?
+- **Why is it useful?**
   - This project serves as an excellent introduction to robotics concepts, such as sensor integration and motor control. It is easy to extend for more complex tasks like line following, mapping, or obstacle classification.
 
 ## General Description
@@ -22,7 +22,7 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 </div>
 
 ## Hardware Design
-- Components: 
+- **Components:** 
   - Arduino UNO board 
   - L298N motor driver 
   - HC-SR04 ultrasonic sensor 
@@ -32,10 +32,10 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
   - Jumper wires
 
 ## Software Design
-## TBD
+**TBD**
 ## Conclusion
-## TBD
+**TBD**
 ## Results
-## TBD
+**TBD**
 ## References/Resources
-## TBD
+**TBD**
