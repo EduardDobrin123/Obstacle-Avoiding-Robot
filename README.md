@@ -5,10 +5,10 @@
   - The robot detects obstacles in its path and dynamically adjusts its direction to avoid collisions.
 
 - **What is its purpose?**
-  - The purpose of this project is to showcase how embedded systems can be used to build simple, autonomous robots while providing a hands-on learning experience in robotics, electronics, and programming.
-
+  - The goal of this project is to create a simple, autonomous robot while gaining hands-on experience with robotics, electronics, and programming.
+    
 - **What inspired the idea?**
-  - The idea originated from the desire to create a cost-effective and efficient robot capable of navigating independently.
+  - The idea came from the desire to create an efective robot car that simulates the movement principle of a robotic vacuum cleaner, navigating and avoiding obstacles while covering the area.
 
 - **Why is it useful?**
   - This project serves as an excellent introduction to robotics concepts, such as sensor integration and motor control. It is easy to extend for more complex tasks like line following, mapping, or obstacle classification.
