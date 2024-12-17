@@ -25,6 +25,43 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 
 ![Block Diagram](images/BlockDiagram.png)
 
+### Hardware Functionality
+
+**1. Arduino Uno**
+- The microcontroller acts as the brain of the project, controlling all other components based on sensor inputs and programmed logic.
+- It receives data from the HC-SR04 Ultrasonic Sensor and processes it to decide motor movements using the L298N Motor Driver Board.
+
+**2. HC-SR04 Ultrasonic Sensor**
+- **Purpose:** Measures the distance to an obstacle using ultrasonic waves.
+- **Pins Used:**
+  - VCC: Connected to 5V pin of Arduino (Power supply).
+  - GND: Connected to the GND of Arduino (Ground reference).
+  - TRIG (Trigger Pin): Connected to Arduino Pin 9. It sends out a pulse to start distance measurement.
+  - ECHO (Echo Pin): Connected to Arduino Pin 8. It receives the reflected ultrasonic pulse to calculate distance.
+    
+**3. Servo Motor**
+- **Purpose:** Rotates the ultrasonic sensor (left and right) to scan for obstacles in different directions.
+- **Pins Used:**
+  - Signal Pin: Connected to Arduino Pin 10. It sends PWM (Pulse Width Modulation) signals to control the servo’s angle.
+  - VCC and GND: Connected to a 5V power supply and ground.
+
+**4. L298N Motor Driver Board**
+- **Purpose:** Controls the two geared motors based on commands from the Arduino. It allows the robot to move forward, backward, left, and right.
+- **Pins Used:**
+  - IN1 and IN2: Connected to Arduino Pins 4 and 5. Control the direction of Motor 1.
+  - IN3 and IN4: Connected to Arduino Pins 6 and 7. Control the direction of Motor 2.
+  - OUT1 and OUT2: Connected to Motor 1 terminals.
+  - OUT3 and OUT4: Connected to Motor 2 terminals.
+  - ENA and ENB: Connected to the 5V PWM pins for motor speed control.
+  - VCC (12V Input): Connected to the 9V DC Power Supply. Powers the motors.
+  - GND: Common ground for the power supply, motors, and Arduino.
+
+**5. Geared Motors (2x)**
+- Controlled via the L298N Motor Driver for directional and speed control.
+- Connected to the motor outputs (OUT1, OUT2, OUT3, and OUT4).
+
+**6. 9V DC Power Supply**
+- Powers the motors and the L298N motor driver. The Arduino can be powered either through its USB port or a separate power source.
 
 ## Hardware Design
 - **Components:** 
