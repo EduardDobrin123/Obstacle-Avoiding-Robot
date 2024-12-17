@@ -64,14 +64,20 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 - Powers the motors and the L298N motor driver. The Arduino can be powered either through its USB port or a separate power source.
 
 ## Hardware Design
-- **Components:** 
-  - Arduino UNO board 
-  - L298N motor driver 
-  - HC-SR04 ultrasonic sensor 
-  - SG90 servo motor 
-  - Two DC motors with wheels 
-  - Battery pack (4x AA with on/off switch) 
-  - Jumper wires
+ ### BOM (Bill Of Materials)
+
+| **Component**               | **Description**                                      | **Quantity** | **Datasheet / Link**                                                                 |
+|-----------------------------|------------------------------------------------------|--------------|-----------------------------------------------------------------------------------|
+| **Arduino Uno**             | Microcontroller board for controlling the components | 1            | [Arduino Uno Datasheet]([https://store.arduino.cc/products/arduino-uno-rev3](https://www.alldatasheet.com/datasheet-pdf/view/241077/ATMEL/ATMEGA328P.html))       |
+| **HC-SR04 Ultrasonic Sensor** | Distance measurement using ultrasonic waves          | 1            | [HC-SR04 Datasheet]([https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf](https://www.alldatasheet.com/datasheet-pdf/pdf/1132204/ETC2/HCSR04.html)) |
+| **Servo Motor (SG90)**      | Small servo motor for rotating the ultrasonic sensor | 1            | [SG90 Servo Datasheet]([https://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/supplement/SG90_Datasheet.pdf](https://www.alldatasheet.com/datasheet-pdf/pdf/1572383/ETC/SG90.html)) |
+| **L298N Motor Driver Module** | Dual H-Bridge motor driver for controlling motors    | 1            | [L298N Datasheet]([https://www.st.com/resource/en/datasheet/l298.pdf](https://www.alldatasheet.com/datasheet-pdf/pdf/22440/STMICROELECTRONICS/L298N.html))              |
+| **Geared DC Motors**        | Motors for driving the robot wheels                  | 2            | [12V DC Motor Example](https://www.mouser.com/datasheet/2/758/2230S012BZ11-2301444.pdf) |
+| **Wheels (Compatible)**     | Wheels compatible with geared motors                 | 2            | -                                                                                 |
+| **9V Battery + Battery Clip** | Power supply for motors and L298N driver             | 1            | -                                                                                 |
+| **Jumper Wires (Male-Male)** | Wires for connecting components                      | 10-15        | -                                                                                 |
+| **Jumper Wires (Male-Female)** | Wires for connecting sensor and servo motor          | 4-6          | -                                                                                 |
+
 
 ## Software Design
 **TBD**
