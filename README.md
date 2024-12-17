@@ -68,11 +68,11 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 
 | **Component**               | **Description**                                      | **Quantity** | **Datasheet / Link**                                                                 |
 |-----------------------------|------------------------------------------------------|--------------|-----------------------------------------------------------------------------------|
-| **Arduino Uno**             | Microcontroller board for controlling the components | 1            | [Arduino Uno Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/241077/ATMEL/ATMEGA328P.html))       |
-| **HC-SR04 Ultrasonic Sensor** | Distance measurement using ultrasonic waves          | 1            | [HC-SR04 Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1132204/ETC2/HCSR04.html)) |
-| **Servo Motor (SG90)**      | Small servo motor for rotating the ultrasonic sensor | 1            | [SG90 Servo Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1572383/ETC/SG90.html)) |
-| **L298N Motor Driver Module** | Dual H-Bridge motor driver for controlling motors    | 1            | [L298N Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/22440/STMICROELECTRONICS/L298N.html))              |
-| **Geared DC Motors**        | Motors for driving the robot wheels                  | 2            | [12V DC Motor Example](https://www.mouser.com/datasheet/2/758/2230S012BZ11-2301444.pdf) |
+| **Arduino Uno**             | Microcontroller board for controlling the components | 1            | [Arduino Uno Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/241077/ATMEL/ATMEGA328P.html)       |
+| **HC-SR04 Ultrasonic Sensor** | Distance measurement using ultrasonic waves          | 1            | [HC-SR04 Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1132204/ETC2/HCSR04.html) |
+| **Servo Motor (SG90)**      | Small servo motor for rotating the ultrasonic sensor | 1            | [SG90 Servo Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1572383/ETC/SG90.html) |
+| **L298N Motor Driver Module** | Dual H-Bridge motor driver for controlling motors    | 1            | [L298N Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/22440/STMICROELECTRONICS/L298N.html)              |
+| **Geared DC Motors**        | Motors for driving the robot wheels                  | 2            | - |
 | **Wheels (Compatible)**     | Wheels compatible with geared motors                 | 2            | -                                                                                 |
 | **9V Battery + Battery Clip** | Power supply for motors and L298N driver             | 1            | -                                                                                 |
 | **Jumper Wires (Male-Male)** | Wires for connecting components                      | 10-15        | -                                                                                 |
