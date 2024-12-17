@@ -78,6 +78,8 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 | **Jumper Wires (Male-Male)** | Wires for connecting components                      | 10-15        | -                                                                                 |
 | **Jumper Wires (Male-Female)** | Wires for connecting sensor and servo motor          | 4-6          | -                                                                                 |
 
+### Circuit
+![Circuit](images/SchemaElectrica.png)
 
 ## Software Design
 **TBD**
