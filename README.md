@@ -1,4 +1,5 @@
 # Obstacle-Avoiding-Robot
+*Dobrin Eduard - Group 362*
 
 # Table of contents
 - [Introduction](#introduction)
