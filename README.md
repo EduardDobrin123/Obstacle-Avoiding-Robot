@@ -14,7 +14,7 @@
   - [Functional Breakdown](#functional-breakdown)
 - [Video Demonstration](#video-demonstration)
 - [Conclusion](#conclusion)
-- [References/Resources](#references/resources)
+- [References/Resources](#referencesresources)
 - [Project Journal](#project-journal)
 - [Bibliography](#bibliography)
 - [License](#license)
