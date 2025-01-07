@@ -158,11 +158,9 @@ This obstacle-avoiding robot demonstrates a practical application of ultrasonic 
 ## References/Resources
 
 ### Software Resources
-1. **[Visual Studio Code](https://code.visualstudio.com/)**  
-   ![Visual Studio Code Badge](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue?logo=visualstudiocode&logoColor=white)
+1. **[Visual Studio Code](https://code.visualstudio.com/)** ![Visual Studio Code Badge](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue?logo=visualstudiocode&logoColor=white)
 
-2. **[PlatformIO](https://platformio.org/)**  
-   ![PlatformIO Badge](https://img.shields.io/badge/Tool-PlatformIO-orange?logo=platformio&logoColor=white)
+2. **[PlatformIO](https://platformio.org/)** ![PlatformIO Badge](https://img.shields.io/badge/Tool-PlatformIO-orange?logo=platformio&logoColor=white)
 
 ### Laboratory Resources
 - [Laboratorul 0: Aplicații introductive](https://robotics.unibuc.ro/dokuwiki/doku.php?id=start:labs:lab0)
