@@ -1,11 +1,11 @@
 # Obstacle-Avoiding-Robot
 
 # Table of contents
-- [Introduction](#introduction)
-- [General Description](#general-description)
-- [Block Diagram](#block-diagram)
-- [Hardware Functionality](#hardware-functionality)
-- [Hardware Design](#hardware-design)
+1. [Introduction](#introduction)
+2. [General Description](#general-description)
+3. [Block Diagram](#block-diagram)
+4. [Hardware Functionality](#hardware-functionality)
+5. [Hardware Design](#hardware-design)
   - [BOM](#bom)
   - [Circuit](#circuit)
   - [Connected Components](#connected-components)
@@ -96,7 +96,45 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 ![Hardware2](images/Hardware2.jpg)
 
 ## Software Design
-**TBD**
+
+### IDE: Visual Studio Code, PlatformIO  
+### Libraries: Arduino, Servo  
+
+### Planned Functionalities:
+- **Real-Time Obstacle Detection**: Continuously monitor the environment using an ultrasonic sensor to detect obstacles within a specified range.
+- **Accurate Distance Calculation**: Measure and display the precise distance to nearby objects, updating in real-time.
+- **Obstacle Avoidance**:
+  - **Forward Movement**: The robot moves forward when no obstacles are detected within the safe distance.
+  - **Obstacle Detection**: When an obstacle is detected, the robot pauses, evaluates the surroundings, and avoids the obstacle by turning and moving backward slightly.
+  - **Decision Making**: The robot determines the direction to avoid obstacles based on sensor readings (left vs right) and adjusts accordingly.
+- **Servo-Based Scanning**: The servo motor scans the left and right directions to evaluate obstacles and determine the best path for avoidance.
+- **Motor Control**: The motors are controlled to enable forward, backward, and turning movements based on obstacle detection.
+
+### Functional Breakdown:
+
+#### 1. **Distance Measurement (Ultrasonic Sensor)**:
+   - The `getDistance()` function sends a pulse via the trigPin, calculates the duration it takes for the echo to return, and converts it into a distance in centimeters.
+   - A timeout of 30ms is set for the echo response to ensure valid readings. If no echo is received within the specified time, the function returns a `-1` value.
+
+#### 2. **Distance Stabilization**:
+   - To reduce the effect of noise in measurements, the `stabilizeDistance()` function averages multiple readings (5 samples) and updates the distance value with the average of valid samples.
+
+#### 3. **Movement Control**:
+   - **`moveForward()`**: The robot moves forward by setting the appropriate pins for the motors.
+   - **`stopMotors()`**: Stops all motors by setting motor control pins to LOW.
+   - **`moveBackward()`**: Moves the robot backward for slight distance adjustment before turning.
+   - **`turnLeft()`** and **`turnRight()`**: Control the robot to turn left or right, depending on the obstacle's position.
+
+#### 4. **Obstacle Avoidance**:
+   - If an obstacle is detected within the safe distance, the robot stops and scans left and right using the servo. It measures the distance in both directions and turns toward the side with more space.
+   - The robot moves backward slightly before turning to ensure proper clearance.
+
+#### 5. **Servo Scanning**:
+   - The servo scans the environment in 180 degrees (0 to 180 degrees) to check the left and right distances. After scanning, it returns to the center position (90 degrees).
+
+#### 6. **Decision Making**:
+   - The robot uses the scanned left and right distances to determine which direction to turn. It prioritizes the side with the most open space to avoid collisions.
+
 ## Conclusion
 **TBD**
 ## Results
