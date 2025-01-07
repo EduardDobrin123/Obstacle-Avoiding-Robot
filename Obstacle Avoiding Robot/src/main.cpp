@@ -8,7 +8,7 @@ Servo Myservo;
 #define MLa 3               // Left motor 1st pin
 #define MLb 5               // Left motor 2nd pin
 #define MRa 6               // Right motor 1st pin
-#define MRb 11               // Right motor 2nd pin
+#define MRb 11              // Right motor 2nd pin
 
 // Variables
 long duration, distance;
@@ -16,6 +16,10 @@ const int safeDistance = 25;  // Safe distance to avoid obstacles (cm)
 const int minDistance = 5;    // Minimum detectable distance (cm)
 
 const int motorSpeed = 140;  
+
+// Timer variables
+unsigned long previousMillis = 0;  // Store last time the servo moved
+const long interval = 500;         // Interval between servo movements
 
 // Function declarations
 long getDistance();
@@ -116,20 +120,27 @@ void stopMotors() {
 // Function to avoid obstacles
 void avoidObstacle() {
   stopMotors();  // Stop before scanning
-  delay(100);
+  previousMillis = millis();  // Reset the timer
 
   // Scan left and right
-  int leftDistance, rightDistance;
   Myservo.write(0);  // Look left
-  delay(500);
-  leftDistance = getDistance();
+  while (millis() - previousMillis < interval) {
+    
+  }
+  long leftDistance = getDistance();
 
   Myservo.write(180);  // Look right
-  delay(500);
-  rightDistance = getDistance();
+  previousMillis = millis();  // Reset the timer
+  while (millis() - previousMillis < interval) {
+    
+  }
+  long rightDistance = getDistance();
 
   Myservo.write(90);  // Reset to center
-  delay(500);
+  previousMillis = millis();  // Reset the timer
+  while (millis() - previousMillis < interval) {
+    
+  }
 
   // Decide direction based on scanned distances
   if (leftDistance > rightDistance) {
@@ -140,7 +151,10 @@ void avoidObstacle() {
 
   // Move backward slightly before turning
   moveBackward();
-  delay(300);
+  previousMillis = millis(); // Reset timer
+  while (millis() - previousMillis < 300) {
+    
+  }
 }
 
 // Function to move backward
