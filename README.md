@@ -6,9 +6,9 @@
 - [Block Diagram](#block-diagram)
 - [Hardware Functionality](#hardware-functionality)
 - [Hardware Design](#hardware-design)
-  -[BOM](#bom)
--[Circuit](#circuit)
--[Connected Components](#connected-components)
+  - [BOM](#bom)
+- [Circuit](#circuit)
+- [Connected Components](#connected-components)
 
 ## Introduction
 - **What does it do?**
