@@ -139,15 +139,50 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 #### 6. **Decision Making**:
    - The robot uses the scanned left and right distances to determine which direction to turn. It prioritizes the side with the most open space to avoid collisions.
 
+## Video Demonstration
+
+Check out the video demonstration of the obstacle-avoiding robot here:
+
+[![Watch the video](https://img.youtube.com/vi/kDMnSLicIYA/0.jpg)](https://www.youtube.com/watch?v=kDMnSLicIYA)
+
+
 ## Conclusion
-**TBD**
-## Results
-**TBD**
+This obstacle-avoiding robot demonstrates a practical application of ultrasonic distance sensors, motor control, and servo scanning using the Arduino Uno. By integrating real-time distance measurement with dynamic decision-making, the robot successfully navigates its environment and avoids obstacles.
+
 ## References/Resources
 
 ### Software Resources
 - [Visual Studio Code](https://code.visualstudio.com/) 
 - [PlatformIO](https://platformio.org/)
+
+### Laboratory Resources
+- [Laboratorul 0: Aplicații introductive](https://robotics.unibuc.ro/dokuwiki/doku.php?id=start:labs:lab0)
+- [Laboratorul 2: Întreruperi. Timere](https://robotics.unibuc.ro/dokuwiki/doku.php?id=start:labs:lab2)
+- [Laboratorul 3: Timere. PWM](https://robotics.unibuc.ro/dokuwiki/doku.php?id=start:labs:lab2)
+
+## Project Journal
+
+### 12/11/2024
+- Started documenting the Obstacle-Avoiding Robot project, outlining hardware components, design objectives, and initial setup.
+- Defined the roles of the ultrasonic sensor, motors, and servo for scanning.
+
+### 12/17/2024
+- Assembled the basic hardware setup, including Arduino Uno, HC-SR04 ultrasonic sensor, motors, and servo.
+- Completed the initial wiring and confirmed that the motor driver and sensors were correctly connected.
+- Finalized the circuit schematic and block diagram for the robot.
+
+### 12/21/2024
+- Documented wiring and connections for the motors, sensors, and servo, ensuring proper power distribution and motor control.
+- Implemented and tested the distance measurement functionality using the ultrasonic sensor.
+- Validated sensor readings and adjusted the distance calculation for accuracy.
+- Developed and tested basic movement controls: forward, backward, and turning motions for the robot.
+- Verified correct response of the motors to input from the Arduino.
+
+### 1/7/2025
+- Completed final testing of the obstacle-avoiding algorithm.
+- The robot successfully detects and avoids obstacles, adjusting its path based on sensor data.
+- Cleaned up the code and finished the project documentation for GitHub.
+
 
 ## License
 
