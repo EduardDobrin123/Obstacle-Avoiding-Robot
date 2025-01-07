@@ -190,13 +190,11 @@ This obstacle-avoiding robot demonstrates a practical application of ultrasonic 
 
 ## Bibliography
 
-1. **Arduino Uno Pinout**
-[https://www.circuito.io/blog/arduino-uno-pinout/]
-(https://www.circuito.io/blog/arduino-uno-pinout/)
+1. **Arduino Uno Pinout**  
+[https://www.circuito.io/blog/arduino-uno-pinout/](https://www.circuito.io/blog/arduino-uno-pinout/)
 
 2. **DC Motor Control with L298N and PWM**  
 [https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/](https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/)
-
 
 ## License
 
