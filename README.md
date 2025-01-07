@@ -2,23 +2,23 @@
 *Dobrin Eduard - Group 362*
 
 # Table of contents
-- [Introduction](#introduction)
-- [General Description](#general-description)
-- [Block Diagram](#block-diagram)
-- [Hardware Functionality](#hardware-functionality)
-- [Hardware Design](#hardware-design)
-  - [BOM](#bom)
-  - [Circuit](#circuit)
-  - [Connected Components](#connected-components)
-- [Software Design](#software-design)
-  - [Planned Functionalities](#planned-functionalities)
-  - [Functional Breakdown](#functional-breakdown)
-- [Video Demonstration](#video-demonstration)
-- [Conclusion](#conclusion)
-- [References/Resources](#referencesresources)
-- [Project Journal](#project-journal)
-- [Bibliography](#bibliography)
-- [License](#license)
+- [Introduction](#introduction)📖 
+- [General Description](#general-description)📝
+- [Block Diagram](#block-diagram)🔗
+- [Hardware Functionality](#hardware-functionality)🛠️
+- [Hardware Design](#hardware-design)🖥️
+  - [BOM](#bom)📋
+  - [Circuit](#circuit)🔌
+  - [Connected Components](#connected-components)🔧
+- [Software Design](#software-design)💻
+  - [Planned Functionalities](#planned-functionalities)🗂️ 
+  - [Functional Breakdown](#functional-breakdown)🔍
+- [Video Demonstration](#video-demonstration)🎥
+- [Conclusion](#conclusion)✅
+- [References/Resources](#referencesresources)📚 
+- [Project Journal](#project-journal)🗓️
+- [Bibliography](#bibliography)📖
+- [License](#license)⚖️
 
 ## Introduction
 - **What does it do?**
