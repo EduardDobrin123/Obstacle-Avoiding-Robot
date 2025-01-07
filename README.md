@@ -7,8 +7,8 @@
 - [Hardware Functionality](#hardware-functionality)
 - [Hardware Design](#hardware-design)
   - [BOM](#bom)
-- [Circuit](#circuit)
-- [Connected Components](#connected-components)
+  - [Circuit](#circuit)
+  - [Connected Components](#connected-components)
 
 ## Introduction
 - **What does it do?**
@@ -88,10 +88,10 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 | **Jumper Wires (Male-Male)** | Wires for connecting components                      | 10-15        | -                                                                                 |
 | **Jumper Wires (Male-Female)** | Wires for connecting sensor and servo motor          | 4-6          | -                                                                                 |
 
-## Circuit
+ ### Circuit
 ![Circuit](images/SchemaElectrica.jpg)
 
-## Connected Components
+ ### Connected Components
 ![Hardware1](images/Hardware1.jpg)
 ![Hardware2](images/Hardware2.jpg)
 
