@@ -1,5 +1,15 @@
 # Obstacle-Avoiding-Robot
 
+# Table of contents
+- [Introduction](#introduction)
+- [General Description](#general-description)
+- [Block Diagram](#block-diagram)
+- [Hardware Functionality](#hardware-functionality)
+- [Hardware Design](#hardware-design)
+  -[BOM](#bom)
+-[Circuit](#circuit)
+-[Connected Components](#connected-components)
+
 ## Introduction
 - **What does it do?**
   - The robot detects obstacles in its path and dynamically adjusts its direction to avoid collisions.
@@ -21,11 +31,11 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 
 </div>
 
-### Block Diagram
+## Block Diagram
 
 ![Block Diagram](images/BlockDiagram.png)
 
-### Hardware Functionality
+## Hardware Functionality
 
 **1. Arduino Uno**
 - The microcontroller acts as the brain of the project, controlling all other components based on sensor inputs and programmed logic.
@@ -64,7 +74,7 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 - Powers the motors and the L298N motor driver. The Arduino can be powered either through its USB port or a separate power source.
 
 ## Hardware Design
- ### BOM (Bill Of Materials)
+ ### BOM 
 
 | **Component**               | **Description**                                      | **Quantity** | **Datasheet / Link**                                                                 |
 |-----------------------------|------------------------------------------------------|--------------|-----------------------------------------------------------------------------------|
@@ -78,10 +88,10 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 | **Jumper Wires (Male-Male)** | Wires for connecting components                      | 10-15        | -                                                                                 |
 | **Jumper Wires (Male-Female)** | Wires for connecting sensor and servo motor          | 4-6          | -                                                                                 |
 
-### Circuit
+## Circuit
 ![Circuit](images/SchemaElectrica.jpg)
 
-### Connected Components
+## Connected Components
 ![Hardware1](images/Hardware1.jpg)
 ![Hardware2](images/Hardware2.jpg)
 
