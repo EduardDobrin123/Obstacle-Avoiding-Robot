@@ -144,7 +144,10 @@ A servo motor (SG90) is used to rotate the ultrasonic sensor, enabling the robot
 ## Results
 **TBD**
 ## References/Resources
-**TBD**
+
+### Software Resources
+- [Visual Studio Code](https://code.visualstudio.com/) 
+- [PlatformIO](https://platformio.org/)
 
 ## License
 
