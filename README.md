@@ -1,14 +1,18 @@
 # Obstacle-Avoiding-Robot
 
 # Table of contents
-1. [Introduction](#introduction)
-2. [General Description](#general-description)
-3. [Block Diagram](#block-diagram)
-4. [Hardware Functionality](#hardware-functionality)
-5. [Hardware Design](#hardware-design)
+- [Introduction](#introduction)
+- [General Description](#general-description)
+- [Block Diagram](#block-diagram)
+- [Hardware Functionality](#hardware-functionality)
+- [Hardware Design](#hardware-design)
   - [BOM](#bom)
   - [Circuit](#circuit)
   - [Connected Components](#connected-components)
+- [Software Design](#software-design)
+  - [Planned Functionalities](#planned-functionalities)
+  - [Functional Breakdown](#functional-breakdown)
+
 
 ## Introduction
 - **What does it do?**
